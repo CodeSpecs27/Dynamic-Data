@@ -1,7 +1,6 @@
 import { Layout } from "./Layout"
 
-function App() {
-  
+export const App = () => {
   return (
     <>
       <Layout/>
@@ -9,4 +8,4 @@ function App() {
   )
 }
 
-export default App
+
