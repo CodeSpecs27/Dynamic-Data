@@ -8,7 +8,7 @@ export const StudentSelector = ({students, selectedId, setSelectedId}) => {
         </label>
         <select
            id = "studentSelect" className = "w-full p-2 border rounded" value = {selectedId} onChange = { e => setSelectedId(e.target.value)}>
-           <option value =  "">__Select a Student__</option>
+           <option value =  "">__Select a Billionare__</option>
            {students.map((student) => (
             <option key={student.id} value={student.id}>
                 {student.id}
