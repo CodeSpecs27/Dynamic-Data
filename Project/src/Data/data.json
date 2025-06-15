@@ -1,19 +1,19 @@
 {
-    "school_name": "Dunder Miflin",
+    "school_name": "BILLIONARE'S CLUB",
 
-    "class": "Year 1",
+    "class": "25th Edition",
 
     "info": {
 
-        "president": "Michael Scott",
+        "president": "Piyush Kumar",
 
         "address": "Scranton, Pennsylvania",
 
         "contacts": {
 
-            "email": "admin@e.com",
+            "email": "billionare@e.com",
 
-            "tel": "123456789"
+            "tel": "9876543210"
 
         }
     },
@@ -24,7 +24,7 @@
 
             "id": "A1",
 
-            "name": "Jim",
+            "name": "Prachi",
 
             "grade": {
 
@@ -41,7 +41,7 @@
 
             "id": "A2",
 
-            "name": "Dwight",
+            "name": "Yash",
 
             "grade": {
 
@@ -58,7 +58,7 @@
 
             "id": "A3",
 
-            "name": "Kevin",
+            "name": "Ankesh",
 
             "grade": {
 
@@ -67,6 +67,22 @@
                 "physics": 90,
 
                 "chemistry": 78
+            }
+
+        },
+        {
+
+            "id": "A4",
+
+            "name": "Nidhi",
+
+            "grade": {
+
+                "math": 94,
+
+                "physics": 99,
+
+                "chemistry": 100
             }
 
         }

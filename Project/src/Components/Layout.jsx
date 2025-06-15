@@ -4,10 +4,12 @@ import data from '../Data/data.json'
 import {Header} from './Header'
 import { SchoolInfo } from "./schoolInfo"
 import { StudentSelector } from "./StudentSelector"
+import { StudentDetails } from "./StudentDetails";
 
 
 export const Layout = () => {
   const [selectedId,setSelectedId] = useState("");
+  const selectedStudent = data.students.find((s) => s.id === selectedId)
 
   return (
     <>
@@ -16,6 +18,7 @@ export const Layout = () => {
            <Header heading={data.school_name} subHead={data.class}/>
            <SchoolInfo info={data.info}/>
            <StudentSelector students={data.students} selectedId={selectedId} setSelectedId={setSelectedId}/>
+           <StudentDetails student={selectedStudent}/>
         </div>
       </div>
     </>
