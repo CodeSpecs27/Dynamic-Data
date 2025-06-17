@@ -1,11 +1,5 @@
-import { Layout } from "./Layout"
+import { Layout } from "./Layout";
 
 export const App = () => {
-  return (
-    <>
-      <Layout/>
-    </>
-  )
-}
-
-
+  return <Layout />;
+};
