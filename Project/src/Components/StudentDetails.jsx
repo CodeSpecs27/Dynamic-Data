@@ -33,7 +33,7 @@ export const StudentDetails = ({ student }) => {
           ))}
         </div>
       ) : (
-        <p className="text-gray-500">Please select a student to see details.</p>
+        <p className="text-gray-500">Please select a Billionaire to see details.</p>
       )}
     </div>
   );
